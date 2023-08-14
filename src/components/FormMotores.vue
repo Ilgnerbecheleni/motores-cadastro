@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     submitForm() {
-      axios.post('http://localhost:3333/api/motors', this.motor)
+      axios.post('http://191.101.234.241:3333/api/motors', this.motor)
         .then(response => {
           console.log('Motor cadastrado com sucesso:', response.data);
           // Limpe o formulário após o envio bem-sucedido

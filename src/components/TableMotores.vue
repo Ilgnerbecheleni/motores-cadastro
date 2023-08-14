@@ -68,7 +68,7 @@
     },
     methods: {
       fetchMotores() {
-        axios.get('http://localhost:3333/api/motors')
+        axios.get('http://191.101.234.241:3333/api/motors')
           .then(response => {
             this.motores = response.data;
             console.log(response.data)
